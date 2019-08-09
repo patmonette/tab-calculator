@@ -1,0 +1,23 @@
+// Tab Calculator
+h1 {
+	color: $blue;
+}
+
+.calc-table {
+	td:first-child {
+		text-align: left;
+	}
+
+	td:last-child {
+		text-align: right;
+		color: $blue;
+	}
+
+	tr:last-child td:last-child {
+		font-weight: bold;
+	}
+}
+
+.blue {
+	color: $blue;
+}
